@@ -98,7 +98,7 @@ const DIV = styled.div`
   width: 35rem;
   margin-top: 6rem;
   /* background-image: var(--secondary-gradient); */
-  background-color: var(--background-light);
+  background-color: var(--secondary-npay);
   border-radius: 2rem;
   > div:first-of-type {
     margin-inline: auto;
