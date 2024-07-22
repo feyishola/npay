@@ -24,9 +24,9 @@ export const HomeFooter = ({ children }) => {
       {children}
       <Container>
         <nav>
-          <div className="logo" style={{display:"flex", flexDirection:"row"}}>
-            <img src="/logos/npay-logo-removebg-preview.png" />
-            <h1>NPay</h1>
+        <div className="logo" style={{display:"flex", flexDirection:"row",justifyContent:"center",alignItems:"center"}}>
+            <img src="/logos/npay-logo-removebg-preview.png" height={"40px"} width={"40px"}/>
+            <h4>NPay</h4>
           </div>
           <ul>
             <li>
@@ -50,8 +50,8 @@ export const HomeFooter = ({ children }) => {
               </Link>
             </li>
             <li>
-              <Link to="/" onClick={() => scrollToSelector("#cta")}>
-                CTA
+              <Link to="/" onClick={() => scrollToSelector("#contact")}>
+                Contact
               </Link>
             </li>
           </ul>

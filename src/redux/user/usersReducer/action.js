@@ -14,7 +14,8 @@ import { baseURL } from "../../store";
 export const getUsers = (showToast) => async (dispatch) => {
   dispatch({ type: GETUSERSREQUEST });
   try {
-    const res = await axios.get(`${baseURL}/users`);
+    // const res = await axios.get(`${baseURL}/users`); //uncomment this
+    const res = [];
     console.log(res);
     dispatch({ type: GETUSERSSUCCESS, payload: res.data });
     return res.data; // Resolve the Promise with user data

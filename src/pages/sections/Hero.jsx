@@ -12,7 +12,7 @@ export const Hero = () => {
         Fast, secure, and convenient payment solutions for all your utility bills.
         </p>
         <div className="blob"></div>
-        <img src="/online-transaction-woman.jpg" alt="Hero Image" style={{width:"432px"}}/> 
+        <img src="/online-transaction.png" alt="Hero Image" style={{width:"432px"}}/> 
       </Container>
     </HERO>
   );

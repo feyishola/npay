@@ -1,0 +1,1009 @@
+[
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "password": "hashedPassword",
+      "avatarNum": 8,
+      "gender": "male",
+      "balance": 4472,
+      "swiftCoin": 3460,
+      "mobile": 9869570986,
+      "contacts": [
+        {
+          "id": 2,
+          "name": "Jane Smith",
+          "email": "jane.smith@example.com",
+          "mobile": 9869560987,
+          "avatarNum": 7
+        },
+        {
+          "id": 3,
+          "name": "Alice Johnson",
+          "email": "alice.johnson@example.com",
+          "mobile": 9869654327,
+          "avatarNum": 10
+        },
+        {
+          "id": 4,
+          "name": "Bob Brown",
+          "email": "bob.brown@example.com",
+          "mobile": 9869570999,
+          "avatarNum": 3
+        }
+      ],
+      "transactions": [101, 103, 107, 112, 114, 117, 120, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137],
+      "notifications": [
+        {
+          "id": 1001,
+          "transaction_id": 101,
+          "from": "John Doe",
+          "to": "Jane Smith",
+          "amount": -150,
+          "message": "Payment sent to Jane Smith",
+          "date": "2023-08-01T10:30:00"
+        },
+        {
+          "id": 1002,
+          "transaction_id": 103,
+          "from": "Bob Brown",
+          "to": "John Doe",
+          "amount": -50,
+          "message": "Payment sent to John Doe",
+          "date": "2023-08-10T09:15:00"
+        },
+        {
+          "id": 1003,
+          "transaction_id": 107,
+          "from": "John Doe",
+          "to": "Jane Smith",
+          "amount": 450,
+          "message": "Payment received from John Doe",
+          "date": "2023-08-07T14:15:00"
+        },
+        {
+          "id": 1004,
+          "transaction_id": 112,
+          "from": "John Doe",
+          "to": "Alice Johnson",
+          "amount": 250,
+          "message": "Payment received from John Doe",
+          "date": "2023-08-08T16:15:00"
+        },
+        {
+          "id": 1005,
+          "transaction_id": 114,
+          "from": "John Doe",
+          "to": "Alice Johnson",
+          "amount": -100,
+          "message": "Payment sent to Alice Johnson",
+          "date": "2023-08-19T09:30:00"
+        },
+        {
+          "id": 1006,
+          "transaction_id": 117,
+          "from": "John Doe",
+          "to": "Bob Brown",
+          "amount": 180,
+          "message": "Payment received from John Doe",
+          "date": "2023-08-09T14:45:00"
+        },
+        {
+          "id": 1007,
+          "transaction_id": 120,
+          "from": "John Doe",
+          "to": "Bob Brown",
+          "amount": 90,
+          "message": "Payment received from John Doe",
+          "date": "2023-08-25T16:00:00"
+        },
+        {
+          "id": 1008,
+          "transaction_id": 128,
+          "from": "John Doe",
+          "to": "Jane Smith",
+          "amount": 20,
+          "message": "trying again",
+          "date": "2023-08-26T11:48:36.573Z"
+        },
+        {
+          "id": 1009,
+          "transaction_id": 129,
+          "from": "John Doe",
+          "to": "Bob Brown",
+          "amount": 10,
+          "message": "testing again",
+          "date": "2023-08-26T11:54:04.452Z"
+        },
+        {
+          "id": 1010,
+          "transaction_id": 130,
+          "from": "John Doe",
+          "to": "Jane Smith",
+          "amount": 20,
+          "message": "Trying Notification",
+          "date": "2023-08-27T11:50:59.248Z"
+        },
+        {
+          "id": 1011,
+          "transaction_id": 131,
+          "from": "John Doe",
+          "to": "Jane Smith",
+          "amount": 20,
+          "message": "For Tution",
+          "date": "2023-08-27T11:54:28.061Z"
+        },
+        {
+          "id": 1012,
+          "transaction_id": 132,
+          "from": "John Doe",
+          "to": "Jane Smith",
+          "amount": 123,
+          "message": "Hello Its me again",
+          "date": "2023-08-27T11:59:13.047Z"
+        },
+        {
+          "id": 1013,
+          "transaction_id": 133,
+          "from": "John Doe",
+          "to": "Alice Johnson",
+          "amount": 123,
+          "message": "For Lunch.!",
+          "date": "2023-08-27T13:45:24.955Z"
+        },
+        {
+          "id": 1014,
+          "transaction_id": 136,
+          "from": "John Doe",
+          "to": "Alice Johnson",
+          "amount": 120,
+          "message": "test",
+          "date": "2023-08-27T13:59:15.814Z"
+        },
+        {
+          "id": 1015,
+          "transaction_id": 137,
+          "from": "John Doe",
+          "to": "Alice Johnson",
+          "amount": 20,
+          "message": "tution",
+          "date": "2023-08-27T14:25:00.416Z"
+        }
+      ],
+      "monthlyIncomeExpenses": [
+        {
+          "month": "2023-08",
+          "income": 4000,
+          "expenses": 2200
+        },
+        {
+          "month": "2023-07",
+          "income": 3500,
+          "expenses": 1800
+        },
+        {
+          "month": "2023-06",
+          "income": 3200,
+          "expenses": 1500
+        },
+        {
+          "month": "2023-05",
+          "income": 3800,
+          "expenses": 2000
+        },
+        {
+          "month": "2023-04",
+          "income": 3900,
+          "expenses": 2100
+        },
+        {
+          "month": "2023-03",
+          "income": 3700,
+          "expenses": 1900
+        },
+        {
+          "month": "2023-02",
+          "income": 3600,
+          "expenses": 1800
+        },
+        {
+          "month": "2023-01",
+          "income": 3300,
+          "expenses": 1700
+        },
+        {
+          "month": "2022-12",
+          "income": 3100,
+          "expenses": 1600
+        },
+        {
+          "month": "2022-11",
+          "income": 3000,
+          "expenses": 1500
+        },
+        {
+          "month": "2022-10",
+          "income": 3500,
+          "expenses": 2000
+        },
+        {
+          "month": "2022-09",
+          "income": 3200,
+          "expenses": 1800
+        }
+      ],
+      "subscriptions": [
+        {
+          "id": 4001,
+          "subscription_id": 311,
+          "name": "Netflix",
+          "amount": 75,
+          "billing_cycle": "Monthly",
+          "platform": "Online Streaming",
+          "subscription_end_date": "2023-10-26"
+        },
+        {
+          "id": 4002,
+          "subscription_id": 312,
+          "name": "Disney Plus Hotstar",
+          "amount": 15,
+          "billing_cycle": "Monthly",
+          "platform": "Online Streaming",
+          "subscription_end_date": "2023-10-27"
+        },
+        {
+          "id": 4003,
+          "subscription_id": 315,
+          "name": "Amazon Prime",
+          "amount": 10,
+          "billing_cycle": "Monthly",
+          "platform": "Online Membership",
+          "subscription_end_date": "2023-10-27"
+        },
+        {
+          "id": 4004,
+          "subscription_id": 317,
+          "name": "Spotify",
+          "amount": 8,
+          "billing_cycle": "Monthly",
+          "platform": "Music Streaming",
+          "subscription_end_date": "2023-10-28"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "email": "jane.smith@example.com",
+      "password": "hashedPassword123",
+      "gender": "female",
+      "avatarNum": 7,
+      "balance": 8323,
+      "swiftCoin": 2900,
+      "mobile": 9869560987,
+      "contacts": [
+        {
+          "id": 1,
+          "name": "John Doe",
+          "email": "john.doe@example.com",
+          "mobile": 9869570986,
+          "avatarNum": 8
+        },
+        {
+          "id": 3,
+          "name": "Alice Johnson",
+          "email": "alice.johnson@example.com",
+          "mobile": 9869654327,
+          "avatarNum": 10
+        },
+        {
+          "id": 4,
+          "name": "Bob Brown",
+          "email": "bob.brown@example.com",
+          "mobile": 9869570999,
+          "avatarNum": 3
+        },
+        {
+          "id": 5,
+          "name": "Charlie Brown",
+          "email": "charlie.brown@example.com",
+          "mobile": 9867878955,
+          "avatarNum": 4
+        }
+      ],
+      "transactions": [106, 108, 109, 115, 121, 124, 130],
+      "notifications": [
+        {
+          "id": 2001,
+          "transaction_id": 106,
+          "from": "Alice Johnson",
+          "to": "Jane Smith",
+          "amount": -200,
+          "message": "Payment sent to Jane Smith",
+          "date": "2023-08-02T09:30:00"
+        },
+        {
+          "id": 2002,
+          "transaction_id": 108,
+          "from": "Charlie Brown",
+          "to": "Jane Smith",
+          "amount": -75,
+          "message": "Payment sent to Jane Smith",
+          "date": "2023-08-12T11:45:00"
+        },
+        {
+          "id": 2003,
+          "transaction_id": 109,
+          "from": "Alice Johnson",
+          "to": "Jane Smith",
+          "amount": -150,
+          "message": "Payment sent to Jane Smith",
+          "date": "2023-08-18T13:30:00"
+        },
+        {
+          "id": 2004,
+          "transaction_id": 115,
+          "from": "Jane Smith",
+          "to": "Alice Johnson",
+          "amount": 150,
+          "message": "Payment received from Jane Smith",
+          "date": "2023-08-24T14:45:00"
+        },
+        {
+          "id": 2005,
+          "transaction_id": 121,
+          "from": "Jane Smith",
+          "to": "Charlie Brown",
+          "amount": -70,
+          "message": "Payment sent to Charlie Brown",
+          "date": "2023-08-05T10:30:00"
+        },
+        {
+          "id": 2006,
+          "transaction_id": 124,
+          "from": "Jane Smith",
+          "to": "Charlie Brown",
+          "amount": -160,
+          "message": "Payment sent to Charlie Brown",
+          "date": "2023-08-21T11:30:00"
+        }
+      ],
+      "monthlyIncomeExpenses": [
+        {
+          "month": "2023-08",
+          "income": 5000,
+          "expenses": 2800
+        },
+        {
+          "month": "2023-07",
+          "income": 4200,
+          "expenses": 2300
+        },
+        {
+          "month": "2023-06",
+          "income": 3800,
+          "expenses": 1900
+        },
+        {
+          "month": "2023-05",
+          "income": 4600,
+          "expenses": 2100
+        },
+        {
+          "month": "2023-04",
+          "income": 4000,
+          "expenses": 2100
+        },
+        {
+          "month": "2023-03",
+          "income": 4100,
+          "expenses": 2000
+        },
+        {
+          "month": "2023-02",
+          "income": 4300,
+          "expenses": 1800
+        },
+        {
+          "month": "2023-01",
+          "income": 3600,
+          "expenses": 1700
+        },
+        {
+          "month": "2022-12",
+          "income": 3400,
+          "expenses": 1600
+        },
+        {
+          "month": "2022-11",
+          "income": 3100,
+          "expenses": 1500
+        },
+        {
+          "month": "2022-10",
+          "income": 3200,
+          "expenses": 1800
+        },
+        {
+          "month": "2022-09",
+          "income": 3000,
+          "expenses": 1500
+        }
+      ],
+      "subscriptions": [
+        {
+          "id": 5001,
+          "subscription_id": 311,
+          "name": "Netflix",
+          "amount": 75,
+          "billing_cycle": "Monthly",
+          "platform": "Online Streaming",
+          "subscription_end_date": "2023-10-26"
+        },
+        {
+          "id": 5002,
+          "subscription_id": 312,
+          "name": "Disney Plus Hotstar",
+          "amount": 15,
+          "billing_cycle": "Monthly",
+          "platform": "Online Streaming",
+          "subscription_end_date": "2023-10-27"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Alice Johnson",
+      "email": "alice.johnson@example.com",
+      "password": "hashedPassword456",
+      "avatarNum": 10,
+      "gender": "female",
+      "balance": 6017,
+      "swiftCoin": 4140,
+      "mobile": 9869654327,
+      "contacts": [
+        {
+          "id": 1,
+          "name": "John Doe",
+          "email": "john.doe@example.com",
+          "mobile": 9869570986,
+          "avatarNum": 8
+        },
+        {
+          "id": 2,
+          "name": "Jane Smith",
+          "email": "jane.smith@example.com",
+          "mobile": 9869560987,
+          "avatarNum": 7
+        },
+        {
+          "id": 4,
+          "name": "Bob Brown",
+          "email": "bob.brown@example.com",
+          "mobile": 9869570999,
+          "avatarNum": 3
+        }
+      ],
+      "transactions": [102, 105, 111, 113, 116, 119, 126, 127, 133, 134, 135, 136],
+      "notifications": [
+        {
+          "id": 3001,
+          "transaction_id": 102,
+          "from": "Alice Johnson",
+          "to": "John Doe",
+          "amount": 300,
+          "message": "Payment received from Alice Johnson",
+          "date": "2023-08-05T15:45:00"
+        },
+        {
+          "id": 3002,
+          "transaction_id": 105,
+          "from": "Alice Johnson",
+          "to": "John Doe",
+          "amount": 100,
+          "message": "Payment received from Alice Johnson",
+          "date": "2023-08-20T11:00:00"
+        },
+        {
+          "id": 3003,
+          "transaction_id": 111,
+          "from": "Alice Johnson",
+          "to": "Jane Smith",
+          "amount": -120,
+          "message": "Payment sent to Jane Smith",
+          "date": "2023-08-03T11:30:00"
+        },
+        {
+          "id": 3004,
+          "transaction_id": 113,
+          "from": "Alice Johnson",
+          "to": "Bob Brown",
+          "amount": -80,
+          "message": "Payment sent to Bob Brown",
+          "date": "2023-08-13T13:00:00"
+        },
+        {
+          "id": 3005,
+          "transaction_id": 116,
+          "from": "Alice Johnson",
+          "to": "Bob Brown",
+          "amount": -80,
+          "message": "Payment sent to Bob Brown",
+          "date": "2023-08-24T14:45:00"
+        },
+        {
+          "id": 3006,
+          "transaction_id": 119,
+          "from": "Alice Johnson",
+          "to": "Bob Brown",
+          "amount": -150,
+          "message": "Payment sent to Bob Brown",
+          "date": "2023-08-20T11:30:00"
+        },
+        {
+          "id": 3007,
+          "transaction_id": 126,
+          "from": "Alice Johnson",
+          "to": "John Doe",
+          "amount": 40,
+          "message": "trying",
+          "date": "2023-08-26T10:46:22.135Z"
+        },
+        {
+          "id": 3008,
+          "transaction_id": 127,
+          "from": "Alice Johnson",
+          "to": "John Doe",
+          "amount": 50,
+          "message": "trying again",
+          "date": "2023-08-26T11:03:32.533Z"
+        },
+        {
+          "id": 3009,
+          "transaction_id": 133,
+          "from": "Alice Johnson",
+          "to": "John Doe",
+          "amount": 123,
+          "message": "For Lunch.!",
+          "date": "2023-08-27T13:45:24.955Z"
+        },
+        {
+          "id": 3010,
+          "transaction_id": 134,
+          "from": "Alice Johnson",
+          "to": "John Doe",
+          "amount": 123,
+          "message": "Trying Again",
+          "date": "2023-08-27T13:52:05.248Z"
+        },
+        {
+          "id": 3011,
+          "transaction_id": 135,
+          "from": "Alice Johnson",
+          "to": "John Doe",
+          "amount": 200,
+          "message": "Second Try",
+          "date": "2023-08-27T13:54:04.349Z"
+        },
+        {
+          "id": 3012,
+          "transaction_id": 136,
+          "from": "Alice Johnson",
+          "to": "John Doe",
+          "amount": 120,
+          "message": "test",
+          "date": "2023-08-27T13:59:15.814Z"
+        }
+      ],
+      "monthlyIncomeExpenses": [
+        {
+          "month": "2023-08",
+          "income": 4800,
+          "expenses": 2600
+        },
+        {
+          "month": "2023-07",
+          "income": 4100,
+          "expenses": 2200
+        },
+        {
+          "month": "2023-06",
+          "income": 3600,
+          "expenses": 1800
+        },
+        {
+          "month": "2023-05",
+          "income": 4300,
+          "expenses": 2000
+        },
+        {
+          "month": "2023-04",
+          "income": 3900,
+          "expenses": 2100
+        },
+        {
+          "month": "2023-03",
+          "income": 4000,
+          "expenses": 1900
+        },
+        {
+          "month": "2023-02",
+          "income": 4200,
+          "expenses": 1700
+        },
+        {
+          "month": "2023-01",
+          "income": 3700,
+          "expenses": 1600
+        },
+        {
+          "month": "2022-12",
+          "income": 3500,
+          "expenses": 1500
+        },
+        {
+          "month": "2022-11",
+          "income": 3200,
+          "expenses": 1400
+        },
+        {
+          "month": "2022-10",
+          "income": 3300,
+          "expenses": 1700
+        },
+        {
+          "month": "2022-09",
+          "income": 3100,
+          "expenses": 1400
+        }
+      ],
+      "subscriptions": [
+        {
+          "id": 6001,
+          "subscription_id": 311,
+          "name": "Netflix",
+          "amount": 75,
+          "billing_cycle": "Monthly",
+          "platform": "Online Streaming",
+          "subscription_end_date": "2023-10-26"
+        },
+        {
+          "id": 6002,
+          "subscription_id": 312,
+          "name": "Disney Plus Hotstar",
+          "amount": 15,
+          "billing_cycle": "Monthly",
+          "platform": "Online Streaming",
+          "subscription_end_date": "2023-10-27"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Bob Brown",
+      "email": "bob.brown@example.com",
+      "password": "hashedPassword789",
+      "avatarNum": 3,
+      "gender": "male",
+      "balance": "420010",
+      "swiftCoin": 1220,
+      "mobile": 9869570999,
+      "contacts": [
+        {
+          "id": 1,
+          "name": "John Doe",
+          "email": "john.doe@example.com",
+          "mobile": 9869570986,
+          "avatarNum": 8
+        },
+        {
+          "id": 2,
+          "name": "Jane Smith",
+          "email": "jane.smith@example.com",
+          "mobile": 9869560987,
+          "avatarNum": 7
+        },
+        {
+          "id": 3,
+          "name": "Alice Johnson",
+          "email": "alice.johnson@example.com",
+          "mobile": 9869654327,
+          "avatarNum": 10
+        },
+        {
+          "id": 5,
+          "name": "Charlie Brown",
+          "email": "charlie.brown@example.com",
+          "mobile": 9867878955,
+          "avatarNum": 4
+        }
+      ],
+      "transactions": [103, 113, 116, 118, 119, 125, 129],
+      "notifications": [
+        {
+          "id": 4001,
+          "transaction_id": 103,
+          "from": "Bob Brown",
+          "to": "John Doe",
+          "amount": -50,
+          "message": "Payment sent to John Doe",
+          "date": "2023-08-10T09:15:00"
+        },
+        {
+          "id": 4002,
+          "transaction_id": 113,
+          "from": "Bob Brown",
+          "to": "Alice Johnson",
+          "amount": -80,
+          "message": "Payment sent to Alice Johnson",
+          "date": "2023-08-13T13:00:00"
+        },
+        {
+          "id": 4003,
+          "transaction_id": 116,
+          "from": "Bob Brown",
+          "to": "Alice Johnson",
+          "amount": -80,
+          "message": "Payment sent to Alice Johnson",
+          "date": "2023-08-24T14:45:00"
+        },
+        {
+          "id": 4004,
+          "transaction_id": 118,
+          "from": "Bob Brown",
+          "to": "Jane Smith",
+          "amount": -30,
+          "message": "Payment sent to Jane Smith",
+          "date": "2023-08-14T09:00:00"
+        },
+        {
+          "id": 4005,
+          "transaction_id": 119,
+          "from": "Bob Brown",
+          "to": "Alice Johnson",
+          "amount": -150,
+          "message": "Payment sent to Alice Johnson",
+          "date": "2023-08-20T11:30:00"
+        },
+        {
+          "id": 4006,
+          "transaction_id": 125,
+          "from": "Bob Brown",
+          "to": "Charlie Brown",
+          "amount": 75,
+          "message": "Payment received from Bob Brown",
+          "date": "2023-08-26T16:00:00"
+        },
+        {
+          "id": 4007,
+          "transaction_id": 129,
+          "from": "Bob Brown",
+          "to": "John Doe",
+          "amount": 10,
+          "message": "testing again",
+          "date": "2023-08-26T11:54:04.452Z"
+        }
+      ],
+      "monthlyIncomeExpenses": [
+        {
+          "month": "2023-08",
+          "income": 3800,
+          "expenses": 2100
+        },
+        {
+          "month": "2023-07",
+          "income": 3200,
+          "expenses": 1900
+        },
+        {
+          "month": "2023-06",
+          "income": 2900,
+          "expenses": 1600
+        },
+        {
+          "month": "2023-05",
+          "income": 3500,
+          "expenses": 1800
+        },
+        {
+          "month": "2023-04",
+          "income": 3600,
+          "expenses": 2000
+        },
+        {
+          "month": "2023-03",
+          "income": 3300,
+          "expenses": 1700
+        },
+        {
+          "month": "2023-02",
+          "income": 3100,
+          "expenses": 1500
+        },
+        {
+          "month": "2023-01",
+          "income": 3000,
+          "expenses": 1400
+        },
+        {
+          "month": "2022-12",
+          "income": 2900,
+          "expenses": 1300
+        },
+        {
+          "month": "2022-11",
+          "income": 2700,
+          "expenses": 1200
+        },
+        {
+          "month": "2022-10",
+          "income": 2800,
+          "expenses": 1400
+        },
+        {
+          "month": "2022-09",
+          "income": 2600,
+          "expenses": 1300
+        }
+      ],
+      "subscriptions": [
+        {
+          "id": 7001,
+          "subscription_id": 311,
+          "name": "Netflix",
+          "amount": 75,
+          "billing_cycle": "Monthly",
+          "platform": "Online Streaming",
+          "subscription_end_date": "2023-10-26"
+        },
+        {
+          "id": 7002,
+          "subscription_id": 312,
+          "name": "Disney Plus Hotstar",
+          "amount": 15,
+          "billing_cycle": "Monthly",
+          "platform": "Online Streaming",
+          "subscription_end_date": "2023-10-27"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Charlie Brown",
+      "email": "charlie.brown@example.com",
+      "password": "hashedPassword987",
+      "avatarNum": 4,
+      "gender": "male",
+      "balance": 5600,
+      "swiftCoin": 3500,
+      "mobile": 9867878955,
+      "contacts": [
+        {
+          "id": 2,
+          "name": "Jane Smith",
+          "email": "jane.smith@example.com",
+          "mobile": 9869560987,
+          "avatarNum": 7
+        },
+        {
+          "id": 4,
+          "name": "Bob Brown",
+          "email": "bob.brown@example.com",
+          "mobile": 9869570999,
+          "avatarNum": 3
+        }
+      ],
+      "transactions": [108, 122, 123, 124],
+      "notifications": [
+        {
+          "id": 5001,
+          "transaction_id": 108,
+          "from": "Charlie Brown",
+          "to": "Jane Smith",
+          "amount": -75,
+          "message": "Payment sent to Jane Smith",
+          "date": "2023-08-12T11:45:00"
+        },
+        {
+          "id": 5002,
+          "transaction_id": 122,
+          "from": "Charlie Brown",
+          "to": "Bob Brown",
+          "amount": 120,
+          "message": "Payment received from Bob Brown",
+          "date": "2023-08-10T14:45:00"
+        },
+        {
+          "id": 5003,
+          "transaction_id": 123,
+          "from": "Charlie Brown",
+          "to": "Ella White",
+          "amount": -45,
+          "message": "Payment sent to Ella White",
+          "date": "2023-08-15T09:00:00"
+        },
+        {
+          "id": 5004,
+          "transaction_id": 124,
+          "from": "Charlie Brown",
+          "to": "Jane Smith",
+          "amount": -160,
+          "message": "Payment sent to Jane Smith",
+          "date": "2023-08-21T11:30:00"
+        }
+      ],
+      "monthlyIncomeExpenses": [
+        {
+          "month": "2023-08",
+          "income": 4500,
+          "expenses": 2400
+        },
+        {
+          "month": "2023-07",
+          "income": 3900,
+          "expenses": 2100
+        },
+        {
+          "month": "2023-06",
+          "income": 3500,
+          "expenses": 1800
+        },
+        {
+          "month": "2023-05",
+          "income": 4100,
+          "expenses": 2000
+        },
+        {
+          "month": "2023-04",
+          "income": 3700,
+          "expenses": 2200
+        },
+        {
+          "month": "2023-03",
+          "income": 3800,
+          "expenses": 1900
+        },
+        {
+          "month": "2023-02",
+          "income": 4000,
+          "expenses": 1700
+        },
+        {
+          "month": "2023-01",
+          "income": 3600,
+          "expenses": 1600
+        },
+        {
+          "month": "2022-12",
+          "income": 3400,
+          "expenses": 1500
+        },
+        {
+          "month": "2022-11",
+          "income": 3100,
+          "expenses": 1400
+        },
+        {
+          "month": "2022-10",
+          "income": 3200,
+          "expenses": 1700
+        },
+        {
+          "month": "2022-09",
+          "income": 3000,
+          "expenses": 1300
+        }
+      ],
+      "subscriptions": [
+        {
+          "id": 8001,
+          "subscription_id": 311,
+          "name": "Netflix",
+          "amount": 75,
+          "billing_cycle": "Monthly",
+          "platform": "Online Streaming",
+          "subscription_end_date": "2023-10-26"
+        }
+      ]
+    }
+  ]

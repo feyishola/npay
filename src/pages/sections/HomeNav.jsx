@@ -74,15 +74,19 @@ export const HomeNav = () => {
             <ButtonSmall onClick={toggleSidebar}>
               <FontAwesomeIcon icon={isSidebarOpen ? faTimes : faBars} />
             </ButtonSmall>
-            <h4>
-              <img src={logoPrimary} alt="" />
-            </h4>
+            <div className="logo" style={{display:"flex", flexDirection:"row",justifyContent:"center",alignItems:"center", width:"80px"}}>
+            <img src="/logos/npay-logo-removebg-preview.png" height={"40px"} width={"40px"} />
+            <h4 style={{color:"black"}}>NPay</h4>
+          </div>
           </div>
         ) : (
           <>
-            <h4>
-              <img src={logoPrimary} alt="" />
-            </h4>
+          <div className="logo" style={{display:"flex", flexDirection:"row",justifyContent:"center",alignItems:"center", width:"80px"}}>
+            {/* <img src="/logos/npay-logo-removebg-preview.png" height={"45px"} width={"45px"}/> */}
+            <img src="/logos/npay-logo-removebg-preview.png" height={"40px"} width={"40px"}/>
+            <h4 style={{color:"black"}}>NPay</h4>
+          </div>
+            
             <ul>
               <li>
                 <Link to="/" onClick={() => scrollToSelector("#hero")}>
@@ -162,7 +166,7 @@ export const HomeNav = () => {
               </Link>
             </li>
             <li>
-              <Link to="/" onClick={() => scrollToSelector("#cta")}>
+              <Link to="/" onClick={() => scrollToSelector("#contact")}>
                 Contact
               </Link>
             </li>
