@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { motion } from "framer-motion";
 
 const ButtonSmallStyled = styled(motion.button)`
-  background-color: var(--secondary-npay);
+  background-color: var(--primary-npay);
   padding: 0.35rem 1rem;
   color: var(--primary-white);
   border-radius: 50px;
@@ -67,7 +67,7 @@ const ButtonStyled = styled(motion.button)`
   color: ${(props) =>
     props.bg ? "var(--primary-white)" : "var(--text-button)"};
   background-color: ${(props) =>
-    props.bg === "dark" ? "var(--background-dark)" : "var(--secondary-npay)"};
+    props.bg === "dark" ? "var(--background-dark)" : "var(--primary-npay)"};
   border-radius: 50px;
   font-weight: 600;
   letter-spacing: 0.25px;

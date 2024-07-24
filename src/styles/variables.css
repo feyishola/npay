@@ -16,9 +16,12 @@
   --text-paragraph: #696b70;
   --text-button: #10100e;
   --secondary-npay: #071952;
+  --primary-npay: #36aac4;
+  --primary-npay-blur: rgba(54, 170, 196, 0.3);
+  --primary-npay-blury: rgba(54, 170, 196, 0.7);
 
   /* Font Styles */
-  --primary-font-family: "Libre Franklin", sans-serif;
+  --primary-font-family: sans-serif;
 
   /* Font Sizes */
   --h1: 4.5rem;
@@ -27,10 +30,10 @@
   --h3: 2rem;
   --h4: 1.5rem;
   --h5: 0.9rem;
-  --paragraph: 0.9rem;
-  --paragraph-small: 0.9rem;
+  --paragraph: 1rem;
+  --paragraph-small: 1.2rem;
   --button: 0.9rem;
-  --link: 0.85rem;
+  --link: 0.95rem;
 
   /*gradient*/
   --primary-gradient: linear-gradient(

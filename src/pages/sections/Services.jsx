@@ -7,16 +7,15 @@ import { useNavigate } from "react-router-dom";
 export const Services = () => {
   const navigate = useNavigate();
   return (
-    <SERVICES id="services">
+    <SERVICES id="services" style={{paddingTop:"70px"}}>
       <Container>
         <div className="subsection">
           <div className="subsection-content">
-            <h2>Plan for every milestone.</h2>
+            <h2>Effortless Utility Payments</h2>
             <p>
-              Achieve your financial objectives with automated recommendations
-              and tailored advice from a Certified Financial Planner™
+              Experience the ease of managing all your utility bills in one place. With our streamlined platform, paying your electricity, water, and other bills has never been simpler.
             </p>
-            <Button onClick={() => navigate("/login")} bg={"--white"}>Create A Plan</Button>
+            <Button onClick={() => navigate("/login")} bg={"--white"}>Get Started</Button>
           </div>
           <div className="subsection-image">
             <img src="/Phone1.png" />
@@ -49,10 +48,9 @@ export const Services = () => {
             </div>
           </div>
           <div className="subsection-content">
-            <h2>Expert guidance, straight to the point</h2>
+            <h2>Secure Transactions, Anytime</h2>
             <p>
-              For short-term and long-term plans, count on the professiona
-              support of your own financial expert.
+              Enjoy peace of mind with our robust security measures. Whether at home or on the go, make secure payments with confidence, knowing your information is protected.
             </p>
             <Button onClick={() => navigate("/login")} bg={"--white"}>
               Start The Journey
@@ -82,6 +80,7 @@ const SERVICES = styled.section`
   .subsection-content h2 {
     line-height: 1.15;
     margin-bottom: 1rem;
+    color:var(--primary-npay);
   }
   .subsection-content p {
     font-size: var(--paragraph-small);
@@ -99,7 +98,7 @@ const SERVICES = styled.section`
 
   .subsection-image {
     
-    background-color: var(--secondary-npay);
+    // background-color: var(--secondary-npay);
     overflow: hidden;
     position: relative;
     height: 400px;

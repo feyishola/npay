@@ -54,7 +54,7 @@ export const Instructions = () => {
 const INSTRUCTIONS = styled.section`
   padding-block: 4rem;
   h2 {
-    color: var(--text-heading);
+    color: var(--primary-npay);
     margin-bottom: 1rem;
     font-weight: bolder;
   }
@@ -91,7 +91,7 @@ const INSTRUCTIONS = styled.section`
     box-shadow: 1px 2px 3px 0px rgba(0 0 0 / 0.2);
   }
   div.instructions-details > div > div:nth-of-type(1) span {
-    background: var(--secondary-npay);
+    background: var(--primary-npay);
     color: var(--primary-white);
   }
   div.instructions-details > div > div h4 {
@@ -100,7 +100,7 @@ const INSTRUCTIONS = styled.section`
     font-weight: 600;
   }
   div.instructions-details > div > div h4 b {
-    color: var(--text-paragraph);
+    color: var(--primary-npay);
     font-weight: 100;
   }
   div.instructions-details > div > div p {

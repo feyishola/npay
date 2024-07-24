@@ -53,7 +53,7 @@ export const HomeNav = () => {
   }
 
   // const logoPrimary = "/logos/logo-primary.png";
-  const logoPrimary = "/logos/npay-logo-removebg-preview.png";
+  const logoPrimary = "/new-npay-logo.png";
 
   const toggleSidebar = () => {
     setIsSidebarOpen(!isSidebarOpen);
@@ -75,16 +75,16 @@ export const HomeNav = () => {
               <FontAwesomeIcon icon={isSidebarOpen ? faTimes : faBars} />
             </ButtonSmall>
             <div className="logo" style={{display:"flex", flexDirection:"row",justifyContent:"center",alignItems:"center", width:"80px"}}>
-            <img src="/logos/npay-logo-removebg-preview.png" height={"40px"} width={"40px"} />
-            <h4 style={{color:"black"}}>NPay</h4>
+            <img src="/new-npay-logo.png" height={"40px"} width={"40px"} />
+            <h4 style={{color:"var(--primary-npay)"}}>NPay</h4>
           </div>
           </div>
         ) : (
           <>
           <div className="logo" style={{display:"flex", flexDirection:"row",justifyContent:"center",alignItems:"center", width:"80px"}}>
             {/* <img src="/logos/npay-logo-removebg-preview.png" height={"45px"} width={"45px"}/> */}
-            <img src="/logos/npay-logo-removebg-preview.png" height={"40px"} width={"40px"}/>
-            <h4 style={{color:"black"}}>NPay</h4>
+            <img src="/new-npay-logo.png" height={"40px"} width={"40px"}/>
+            <h4 style={{color:"var(--primary-npay)"}}>NPay</h4>
           </div>
             
             <ul>
@@ -195,6 +195,8 @@ export const HomeNav = () => {
 
 const NAV = styled.div`
   background-color: var(--primary-white);
+  box-shadow:0px 2px 2.9px rgba(54,170,196,0.15);
+  // border-bottom:1px solid rgba(0,0,0,0.15);
   .navbar {
     display: flex;
     align-items: center;
@@ -213,11 +215,11 @@ const NAV = styled.div`
   }
 
   ul li a {
-    color: black;
+    color: var(--primary-npay);
     transition: color 0.2s ease-in;
   }
   ul li a:hover {
-    color: var(--primary-grey);
+    color: var(--secondary-npay);
   }
   img {
     width: 150px;
@@ -234,7 +236,7 @@ const Sidebar = styled.div`
   left: 0;
   width: 45%;
   height: 100%;
-  background-color: var(--background-light);
+  background-color: var(--primary-npay);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -250,11 +252,11 @@ const Sidebar = styled.div`
     li {
       margin-bottom: 1rem;
       a {
-        color: var(--primary-grey);
+        color: var(--primary-white);
         text-decoration: none;
         transition: color 0.2s ease-in;
         &:hover {
-          color: var(--primary);
+          color: var(--primary-npay);
         }
       }
     }
@@ -264,5 +266,7 @@ const Sidebar = styled.div`
     margin-top: auto;
     width: 60%;
     margin-inline: auto;
+    background-color:white;
+    color:var(--primary-npay)
   }
 `;

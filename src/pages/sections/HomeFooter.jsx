@@ -20,12 +20,12 @@ export const HomeFooter = ({ children }) => {
   }
 
   return (
-    <FOOTER>
+    <FOOTER style={{marginTop:"30px", paddingTop:"30px"}}>
       {children}
       <Container>
         <nav>
         <div className="logo" style={{display:"flex", flexDirection:"row",justifyContent:"center",alignItems:"center"}}>
-            <img src="/logos/npay-logo-removebg-preview.png" height={"40px"} width={"40px"}/>
+            <img src="/new-npay-logo.png" height={"40px"} width={"40px"}/>
             <h4>NPay</h4>
           </div>
           <ul>
@@ -87,7 +87,7 @@ const FOOTER = styled.footer`
   position: relative;
   background-color: var(--background-dark);
   padding-top: 8rem;
-  color: var(--primary-grey);
+  color: var(--primary-npay);
   .logo {
     width: 8rem;
   }
@@ -100,7 +100,7 @@ const FOOTER = styled.footer`
     margin-bottom: 1rem;
   }
   h4 {
-    color: var(--primary-white);
+    color: var(--primary-npay);
   }
   ul {
     display: flex;
@@ -111,11 +111,11 @@ const FOOTER = styled.footer`
   }
 
   ul li a {
-    color: var(--primary-grey);
+    color: var(--primary-npay);
     transition: color 0.2s ease-in;
   }
   ul li a:hover {
-    color: var(--primary);
+    color: var(--secondary-npay);
   }
   hr {
     margin-bottom: 1rem;
@@ -127,7 +127,7 @@ const FOOTER = styled.footer`
     padding-bottom: 1rem;
   }
   div.socials > div a {
-    color: var(--primary-white);
+    color: var(--primary-npay);
     font-size: var(--text-paragraph);
     margin-right: 0.75rem;
   }
@@ -136,7 +136,7 @@ const FOOTER = styled.footer`
   }
 
   div.socials > p {
-    color: var(--primary-white);
+    color: var(--primary-npay);
     font-size: var(--button);
   }
   .copyright-icon {

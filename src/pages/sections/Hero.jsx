@@ -12,7 +12,7 @@ export const Hero = () => {
         Fast, secure, and convenient payment solutions for all your utility bills.
         </p>
         <div className="blob"></div>
-        <img src="/online-transaction.png" alt="Hero Image" style={{width:"432px"}}/> 
+        <img src="/removebg/Credit Card Payment-pana 1.svg" alt="Hero Image" style={{width:"550px"}}/> 
       </Container>
     </HERO>
   );
@@ -20,7 +20,8 @@ export const Hero = () => {
 
 const HERO = styled.section`
   text-align: center;
-  background-color: var(--secondary-npay);
+  // background-color: var(--primary-npay-blur);
+  background-color: var(--primary-npay);
   padding-block: 3rem 30rem;
   overflow: hidden;
   position: relative;
@@ -33,7 +34,7 @@ const HERO = styled.section`
     margin-inline: auto;
   }
   p {
-    color: var(--primary-grey);
+    color: var(--primary-npay);
     margin-bottom:1rem;
   }
   div.blob {
@@ -42,13 +43,13 @@ const HERO = styled.section`
     height: 100%;
     left: 50%;
     transform: translate(-50%);
-    background-color: var(--primary-grey);
+    background-color: var(--primary-white);
     opacity: 0.4;
     border-radius: 53% 47% 51% 49% / 45% 37% 63% 55%;
   }
   img {
     position: absolute;
-    bottom:-2%;
+    bottom:2%;
     left: 50%;
     transform: translate(-50%, 2rem);
     padding-inline: 1rem;
