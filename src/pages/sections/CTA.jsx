@@ -2,6 +2,14 @@ import React from "react";
 import styled from "styled-components";
 import { Button } from "../../components/Buttons";
 import { Container } from "../../components/Layouts";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faFacebook,
+  faTwitter,
+  faLinkedin,
+  faInstagram,
+} from "@fortawesome/free-brands-svg-icons";
+import { faCopyright } from "@fortawesome/free-solid-svg-icons";
 
 export const CTA = () => {
   return (
@@ -16,6 +24,22 @@ export const CTA = () => {
             <p>Phone: +2347016690777</p>
             <p>Email: info@npay.ng</p>
             <p>Website: https://npay.ng</p>
+          </div>
+          <div >
+            <div style={{ textAlign: "start",gap:"30px"}}>
+              <a href="https://web.facebook.com/people/npayng/61564185981946/?mibextid=ZbWKwL">
+                <FontAwesomeIcon icon={faFacebook} style={{padding:"10px",fontSize:"50px", color:"white"}}/>
+              </a>
+              <a href="https://x.com/npayng?t=Q4zEAfbQ7sLJOMMcQzOO8w&s=09">
+                <FontAwesomeIcon icon={faTwitter} style={{padding:"10px",fontSize:"50px", color:"white"}}/>
+              </a>
+              {/* <a href="#">
+                <FontAwesomeIcon icon={faLinkedin} />
+              </a> */}
+              <a href="https://www.instagram.com/npay.ng?igsh=MTlmbmcxODd1dHd3Yw==">
+                <FontAwesomeIcon icon={faInstagram} style={{padding:"10px",fontSize:"50px", color:"white"}}/>
+              </a>
+            </div>
           </div>
         </Info>
         <FormWrapper>
@@ -71,6 +95,9 @@ const Wrapper = styled.div`
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+  }
+    a:hover {
+    color: var(--primary);
   }
 `;
 

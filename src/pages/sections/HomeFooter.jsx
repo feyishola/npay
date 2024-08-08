@@ -24,9 +24,10 @@ export const HomeFooter = ({ children }) => {
       {children}
       <Container>
         <nav>
-        <div className="logo" style={{display:"flex", flexDirection:"row",justifyContent:"center",alignItems:"center"}}>
-            <img src="/new-npay-logo.png" height={"40px"} width={"40px"}/>
-            <h4>NPay</h4>
+          <div className="logo" style={{display:"flex", flexDirection:"row",justifyContent:"center",alignItems:"center"}}>
+              <h4>NPay</h4>
+              <img src="/new-npay-logo.png" height={"40px"} width={"40px"}/>
+              
           </div>
           <ul>
             <li>
@@ -59,23 +60,30 @@ export const HomeFooter = ({ children }) => {
         <hr />
         <div className="socials">
           <div>
-            <a href="#">
+            <a href="https://web.facebook.com/people/npayng/61564185981946/?mibextid=ZbWKwL">
               <FontAwesomeIcon icon={faFacebook} />
             </a>
-            <a href="#">
+            <a href="https://x.com/npayng?t=Q4zEAfbQ7sLJOMMcQzOO8w&s=09">
               <FontAwesomeIcon icon={faTwitter} />
             </a>
-            <a href="#">
+            {/* <a href="#">
               <FontAwesomeIcon icon={faLinkedin} />
-            </a>
-            <a href="#">
+            </a> */}
+            <a href="https://www.instagram.com/npay.ng?igsh=MTlmbmcxODd1dHd3Yw==">
               <FontAwesomeIcon icon={faInstagram} />
             </a>
           </div>
-          <p>
-            <FontAwesomeIcon icon={faCopyright} className="copyright-icon" />
-            2024 All rights reserved
-          </p>
+          <div style={{textAlign:"right"}}>
+            <p>
+              <FontAwesomeIcon icon={faCopyright} className="copyright-icon" />
+              2024 All rights reserved
+            </p>
+            <p>Phone: +2347016690777</p>
+            <p>Email: info@npay.ng</p>
+            <p>Website: https://npay.ng</p>
+            <p>Address: No. 3 Block C, Along Ibrahim Taiwo Road, Jos, Plateau State.</p>
+          </div>
+          
         </div>
       </Container>
     </FOOTER>
@@ -87,7 +95,7 @@ const FOOTER = styled.footer`
   position: relative;
   background-color: var(--background-dark);
   padding-top: 8rem;
-  color: var(--primary-npay);
+  color: white;
   .logo {
     width: 8rem;
   }
@@ -111,11 +119,11 @@ const FOOTER = styled.footer`
   }
 
   ul li a {
-    color: var(--primary-npay);
+    color: white;
     transition: color 0.2s ease-in;
   }
   ul li a:hover {
-    color: var(--secondary-npay);
+    color: var(--primary-npay);
   }
   hr {
     margin-bottom: 1rem;
@@ -127,12 +135,12 @@ const FOOTER = styled.footer`
     padding-bottom: 1rem;
   }
   div.socials > div a {
-    color: var(--primary-npay);
+    color: white;
     font-size: var(--text-paragraph);
     margin-right: 0.75rem;
   }
   div.socials > div a:hover {
-    color: var(--primary);
+    color: var(--primary-npay);
   }
 
   div.socials > p {

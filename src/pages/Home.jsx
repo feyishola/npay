@@ -34,7 +34,7 @@ export const Home = () => {
       <Instructions></Instructions>
       <Features></Features>
       <Services></Services>
-      <CTA></CTA>
+      {/* <CTA></CTA> */}
       <HomeFooter>
         
       </HomeFooter>

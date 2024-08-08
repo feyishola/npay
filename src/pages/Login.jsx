@@ -26,14 +26,14 @@ export const AuthPage = () => {
         {isSignUpVisible && (
           <h5
             style={{
-              color: "var(--primary-grey)",
+              color: "var(--secondary-npay)",
               marginBottom: "10px",
               width: "100%",
             }}
           >
-            Create a new account today, and get{" "}
-            <span style={{ color: "var(--primary-light)" }}>
-              500 SwiftCoins
+            Create a new account today with{" "}
+            <span style={{ color: "var(--primary-npay)"}}>
+              NPAY
             </span>{" "}
             for free.
           </h5>
@@ -46,12 +46,12 @@ export const AuthPage = () => {
               style={{
                 backgroundColor: isSignUpVisible
                   ? "transparent"
-                  : "var(--primary)",
+                  : "var(--primary-npay)",
                 color: isSignUpVisible
-                  ? "var(--primary)"
-                  : "var(--background-light)",
+                  ? "var(--primary-npay)"
+                  : "white",
                 border: isSignUpVisible
-                  ? "1px solid var(--primary)"
+                  ? "1px solid var(--primary-npay)"
                   : "1px solid transparent",
               }}
             >
@@ -62,13 +62,13 @@ export const AuthPage = () => {
               disabled={isSignUpVisible}
               style={{
                 backgroundColor: isLoginVisible
-                  ? "transparent"
-                  : "var(--primary)",
+                  ? "var(--primary-npay)"
+                  : "var(--primary-npay)",
                 color: isLoginVisible
-                  ? "var(--primary)"
-                  : "var(--background-light)",
+                  ? "white"
+                  : "white",
                 border: isLoginVisible
-                  ? "1px solid var(--primary)"
+                  ? "1px solid var(--primary-npay)"
                   : "1px solid transparent",
               }}
             >
@@ -81,7 +81,7 @@ export const AuthPage = () => {
           </div>
         </div>
       </DIV>
-      <HomeFooter></HomeFooter>
+      {/* <HomeFooter></HomeFooter> */}
     </>
   );
 };
@@ -98,7 +98,7 @@ const DIV = styled.div`
   width: 35rem;
   margin-top: 6rem;
   /* background-image: var(--secondary-gradient); */
-  background-color: var(--secondary-npay);
+  background-color: white;
   border-radius: 2rem;
   > div:first-of-type {
     margin-inline: auto;
@@ -109,7 +109,8 @@ const DIV = styled.div`
     font-size: 15px;
     border-radius: 20px;
     padding: 5px 15px;
-    background-color: var(--primary);
+    background-color: var(--primary-npay);
+    color:white;
   }
   .login-button-div {
     /* border: 1px solid gray; */
@@ -130,14 +131,14 @@ const DIV = styled.div`
     label {
       text-transform: uppercase;
       letter-spacing: 1px;
-      color: var(--primary-grey);
+      color: var(--secondary-npay);
       font-weight: 400;
       /* font-size:var(--button); */
     }
     input {
     width: 100%;
     padding: 0.5rem 1rem;
-    border: 1px solid var(--primary-grey);
+    border: 1px solid var(--secondary-npay);
     background-color: transparent;
     color: var(--primary-white);
     border-radius: 0.25rem;

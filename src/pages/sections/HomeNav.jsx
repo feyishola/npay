@@ -75,16 +75,19 @@ export const HomeNav = () => {
               <FontAwesomeIcon icon={isSidebarOpen ? faTimes : faBars} />
             </ButtonSmall>
             <div className="logo" style={{display:"flex", flexDirection:"row",justifyContent:"center",alignItems:"center", width:"80px"}}>
-            <img src="/new-npay-logo.png" height={"40px"} width={"40px"} />
             <h4 style={{color:"var(--primary-npay)"}}>NPay</h4>
+            <img src="/new-npay-logo.png" height={"40px"} width={"40px"} />
+            
           </div>
           </div>
         ) : (
           <>
           <div className="logo" style={{display:"flex", flexDirection:"row",justifyContent:"center",alignItems:"center", width:"80px"}}>
             {/* <img src="/logos/npay-logo-removebg-preview.png" height={"45px"} width={"45px"}/> */}
-            <img src="/new-npay-logo.png" height={"40px"} width={"40px"}/>
+            
             <h4 style={{color:"var(--primary-npay)"}}>NPay</h4>
+            <img src="/new-npay-logo.png" height={"40px"} width={"40px"}/>
+            
           </div>
             
             <ul>

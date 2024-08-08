@@ -3,10 +3,12 @@ import styled from "styled-components";
 import { Avatars } from "../Avatars";
 
 const initialState = {
-  name: "",
+  firstname: "",
+  lastname: "",
   email: "",
   password: "",
-  gender: "",
+  businesstype: "",
+  businessname:"",
   mobile: "",
 };
 
@@ -35,31 +37,43 @@ export const SignUpForm = () => {
     <>
       <Container>
         <form onSubmit={handleSubmit}>
-          <div className="signup-avatar-div">
+          {/* <div className="signup-avatar-div">
             <img src={avatarNum} className="signup-avatar-img" />
-          </div>
+          </div> */}
 
           <FormGroup>
-            <label htmlFor="name">Name:</label>
+            <label htmlFor="name">FirstName:</label>
             <input
               // placeholder="Name"
               type="text"
-              id="name"
-              name="name"
-              value={userData.name}
+              id="firstname"
+              name="firstname"
+              value={userData.firstname}
               onChange={handleChange}
               required
             />
           </FormGroup>
           <FormGroup>
-            <label htmlFor="email">Email:</label>
+            <label htmlFor="name">LastName:</label>
+            <input
+              // placeholder="Name"
+              type="text"
+              id="lastname"
+              name="lastname"
+              value={userData.lastname}
+              onChange={handleChange}
+              required
+            />
+          </FormGroup>
+          <FormGroup>
+            <label htmlFor="email">Email(Optional):</label>
             <input
               type="email"
               id="email"
               name="email"
               value={userData.email}
               onChange={handleChange}
-              required
+
             />
           </FormGroup>
           <FormGroup>
@@ -74,46 +88,34 @@ export const SignUpForm = () => {
             />
           </FormGroup>
           <FormGroup>
-            <label>Gender:</label>
+            <label>BusinessType:</label>
             <RadioButtonGroup>
-              <label className="signup-gender-label">
+              <label className="signup-businesstype-label">
                 <input
                   type="radio"
-                  id="male"
-                  name="gender"
-                  value="Male"
-                  checked={userData.gender === "Male"}
+                  id="personal"
+                  name="businesstype"
+                  value="personal"
+                  checked={userData.businesstype === "personal"}
                   onChange={handleChange}
                 />
-                <span>Male</span>
+                <span>Personal</span>
               </label>
-              <label className="signup-gender-label">
+              <label className="signup-businesstype-label">
                 <input
                   type="radio"
-                  id="female"
-                  name="gender"
-                  value="Female"
-                  checked={userData.gender === "Female"}
+                  id="business"
+                  name="businesstype"
+                  value="business"
+                  checked={userData.businesstype === "business"}
                   onChange={handleChange}
                 />
-                <span>Female</span>
-              </label>
-              <label className="signup-gender-label">
-                <input
-                  type="radio"
-                  id="other"
-                  name="gender"
-                  value="Other"
-                  checked={userData.gender === "Other"}
-                  onChange={handleChange}
-                  className="signup-gender-input"
-                />
-                <span>Other</span>
+                <span>Business</span>
               </label>
             </RadioButtonGroup>
           </FormGroup>
           <FormGroup>
-            <label htmlFor="mobile">Mobile:</label>
+            <label htmlFor="mobile">PhoneNumber:</label>
             <input
               type="tel"
               id="mobile"
@@ -166,14 +168,14 @@ const FormGroup = styled.div`
     text-align: left;
     font-weight: bold;
     font-size: 14px;
-    color: var(--primary-light);
+    color: var(--secondary-npay);
   }
 
   span {
     margin-left: 5px;
   }
 
-  .signup-gender-label {
+  .signup-businesstype-label {
     font-weight: normal;
     font-size: 16px;
   }
@@ -204,7 +206,7 @@ const SubmitButton = styled.button`
   margin-top: 2rem;
   width: 30%;
   padding: 10px;
-  color: #080808;
+  color: var(--secondary-npay);
   border: none;
   border-radius: 4px;
   cursor: pointer;
